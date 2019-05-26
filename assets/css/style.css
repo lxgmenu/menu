@@ -92,7 +92,13 @@ h6 {
 
 .flex {
     display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
     justify-content: center;
+    -webkit-justify-content: space-between;
     align-items: center;
 }
 
@@ -103,7 +109,6 @@ i {
 }
 
 i:hover {
-    /* color: #fff; */
     transform: scale(1.2);
 }
 
