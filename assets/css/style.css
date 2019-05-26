@@ -75,6 +75,10 @@ h6 {
     font-family: 'Playfair Display', serif;
 }
 
+.sectionTitle {
+    margin-bottom: 4em;
+}
+
 .sectionTitle h6 {
     font-style: italic;
 }
