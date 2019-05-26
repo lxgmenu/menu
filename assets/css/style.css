@@ -1,0 +1,91 @@
+p, h2, h4, h5, h6 {
+    font-family: Lora, serif;
+    font-size: 1.3em;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-family: "Gentium Book Basic", serif;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+.background {
+    background: url(../images/bg.jpg) center top / cover no-repeat fixed;
+    background-position: center top;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+    border-left: 10px solid rgb(0, 0, 0);
+    border-right: 10px solid rgb(0, 0, 0);
+    padding: 0px 25px;
+    background: rgba(252, 216, 42, 0.9);
+}
+
+#crestLogo {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    height: 260px;
+    width: 300px;
+}
+
+.header {
+    text-align: center;
+    font-family: "Gentium Book Basic", serif;
+}
+
+#menuTitle {
+    font-size: 3em;
+}
+
+.decorative {
+    font-family: "Great Vibes", cursive;
+    margin-right: 2px;
+}
+
+#signature {
+    width: 300px;
+}
+
+.curlsDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.curls {
+    height: 100px;
+    width: 300px;
+}
+
+#entrees {
+    font-family: "Gentium Book Basic", serif;
+}
+
+.sectionTitle h6 {
+    font-style: italic;
+}
+
+.menuItem {
+    margin-bottom: 4em;
+}
+
+.menuItem h2 {
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+}
+
+.menuItem p {
+    font-size: 1em;
+    text-align: center;
+}
