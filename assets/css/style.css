@@ -1,3 +1,7 @@
+body {
+    color: #262626;
+}
+
 p, h2, h4, h5, h6 {
     font-family: "Lora", serif;
     font-size: 1.3em;
