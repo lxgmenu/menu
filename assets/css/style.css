@@ -1,3 +1,7 @@
+body {
+    color: #222;
+}
+
 p, h2, h4, h5, h6 {
     font-family: "Lora", serif;
     font-size: 1.3em;
@@ -27,8 +31,8 @@ h6 {
 .container {
     max-width: 960px;
     margin: 0px auto;
-    border-left: 10px solid rgb(0, 0, 0);
-    border-right: 10px solid rgb(0, 0, 0);
+    border-left: 10px solid #222;
+    border-right: 10px solid #222;
     padding: 0px 25px;
     background: rgba(252, 216, 42, 0.9);
 }
@@ -50,6 +54,7 @@ h6 {
 
 #menuTitle {
     font-size: 3em;
+    color: #222;
 }
 
 .decorative {
@@ -106,7 +111,7 @@ h6 {
 }
 
 i {
-    color: #000;
+    color: #222;
     font-size: 14px;
     margin-left: 8px;
     transition: all .3s ease-in-out;
