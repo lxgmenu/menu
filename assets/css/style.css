@@ -124,3 +124,28 @@ i:hover {
 .menuItem a {
     margin-bottom: 0.5em;
 }
+
+.relative {
+    position: relative;
+}
+
+#redeemed {
+    max-width: 350px;
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    transform: rotate(-30deg);
+}
+
+@media only screen and (max-width: 768px) {
+    #redeemed {
+        left: 25%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #redeemed {
+        left: -10%;
+        top: 40%;
+    }
+}
