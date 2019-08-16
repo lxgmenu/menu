@@ -131,6 +131,7 @@ i:hover {
 
 #redeemed {
     max-width: 350px;
+    opacity: 0.8;
     position: absolute;
     left: 30%;
     top: 25%;
